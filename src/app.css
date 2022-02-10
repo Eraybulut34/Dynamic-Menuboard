@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+    margin: 0px;
+}
+
+.home {
+    background-image: url("https://i2.wp.com/www.tessescafe.fi/wp-content/uploads/2019/11/powerpoint-restaurant-menu-template-luxury-food-menu-background-hd-for-restaurant-menu-background.jpg");
+    background-size: 1920px 1080px;
+    display: flex;
+    background-repeat: no-repeat;
+    min-width: 1920px;
+    min-height: 1080px;
+    overflow: hidden;
+}
+
+.logo {
+    max-width: 900px;
+    max-height: 900px;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 1920px;
+    min-height: 1080px;
+    justify-content: space-evenly;
+
+
+}
+
+#home>div:nth-child(n+1) {
+    animation: move 15s linear 0s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-5760px, 50px);
+    }
+}
+
+.content {
+    margin-top: -20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+    padding-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.foods {
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
