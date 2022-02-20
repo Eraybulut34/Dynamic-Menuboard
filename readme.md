@@ -1,5 +1,10 @@
-#projeyi çalıştırmadan önce terminalden npm i komutunu kullanarak gerekli dependencyleri yükleyiniz.
+##dynamic menuboard
 
-#dependencyleri yükledikten sonra src klasöründeki index.html dosyasını açabilirsiniz.
+javascript ve css ile dinamik olarak kullanılabilen animasyonlu bir yemek menüsü.
+
+
+##projeyi çalıştırmadan önce terminalden npm i komutunu kullanarak gerekli dependencyleri yükleyiniz.
+
+##dependencyleri yükledikten sonra src klasöründeki index.html dosyasını açabilirsiniz.
 
 *json dosyası için mockapi.io kullanılmıştır.
